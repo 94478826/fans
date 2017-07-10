@@ -30,7 +30,7 @@ public class SecurityConfig {
 
 	        //允许所有用户访问"/"和"/home"
 	        http.authorizeRequests()
-	                .antMatchers("/", "/home").permitAll()
+	                .antMatchers("/", "/home","/api/").permitAll()
 	                //其他地址的访问均需验证权限
 	                .anyRequest().authenticated()
 	                .and()
