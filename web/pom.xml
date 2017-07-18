@@ -7,4 +7,11 @@
   </parent>
   <artifactId>web</artifactId>
   <packaging>war</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.fans</groupId>
+  		<artifactId>api</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
